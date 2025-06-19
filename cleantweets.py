@@ -35,7 +35,7 @@ def main():
     df['body'] = df['body'].apply(clean_text)
 
     df.to_csv(output_file, index=False)
-    print(f"✅ Cleaned file saved to: {output_file}")
+    print(f"Cleaned file saved to: {output_file}")
 
 if __name__ == "__main__":
     main()
