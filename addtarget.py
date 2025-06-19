@@ -129,7 +129,7 @@ def main():
     )
 
     df_final.to_csv(OUTPUT_CSV, index=False)
-    print(f"\nAll done! Wrote final data with daily price changes to {OUTPUT_CSV}")
+    print(f"Wrote final data with daily price changes to {OUTPUT_CSV}")
 
 
 if __name__ == "__main__":
