@@ -42,7 +42,7 @@ def main():
 
 
     df.to_csv(output_file, index=False)
-    print(f"✅ Done! Sentiment results saved to '{output_file}'.")
+    print(f"Sentiment results saved to '{output_file}'.")
 
 if __name__ == "__main__":
     main()
